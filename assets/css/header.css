@@ -1,3 +1,38 @@
 .header {
+    display: flex;
+    justify-content: space-around;
     background-color: var(--dark-gray);
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
+
+.social_media {
+    display: none;
+}
+
+#input__menu_social_media:checked~.social_media {
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-large-gray);
+    border-radius: 10px;
+    top: 10%;
+    left: 70%;
+    width: 150px;
+    padding: 10px;
+}
+
+.link__social_media {
+    display: flex;
+    padding: 5px;
+}
+
+.link__social_media p {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
 }
