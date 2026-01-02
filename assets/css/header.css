@@ -2,14 +2,46 @@
     display: flex;
     justify-content: space-around;
     background-color: var(--dark-gray);
+    border-bottom: 2px solid var(--black);
+    height: 100px;
 }
 
-.nav__link {
+.link__header {
     color: white;
     text-decoration: none;
 }
 
+.link__header-name {
+    margin: auto 5px;
+}
+
+.nav {
+    margin: auto 5px;
+}
+
+.nav__link {
+    margin: 0px 5px;
+}
+
+.nav__link:hover {
+    font-size: 1.2rem;
+    transition: 0.2s;
+    color: var(--gold);
+}
+
+label {
+    margin: auto 2px;
+}
+
 .social_media {
+    display: none;
+}
+
+.img_menu {
+    cursor: pointer;
+}
+
+#input__menu_social_media {
     display: none;
 }
 
@@ -20,10 +52,11 @@
     flex-direction: column;
     background-color: var(--dark-large-gray);
     border-radius: 10px;
-    top: 10%;
+    top: 18%;
     left: 70%;
     width: 150px;
     padding: 10px;
+    box-shadow: 5px 4px 10px black;
 }
 
 .link__social_media {
