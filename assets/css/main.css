@@ -1,8 +1,23 @@
 .section {
     border: 1px solid var(--little-white);
     margin: 50px auto;
-    padding: 10px;
+    padding: 20px;
     height: 50%;
     width: 90%;
     border-radius: 7px;
+}
+
+.section__title {
+    background: #e8e8e8;
+    background: linear-gradient(171deg, rgba(232, 232, 232, 1) 0%, rgba(179, 125, 255, 1) 35%, rgba(212, 212, 212, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+}
+
+.section__text{
+    text-indent: 20px;
+    text-align: justify;
+    color: var(--little-white);
 }
