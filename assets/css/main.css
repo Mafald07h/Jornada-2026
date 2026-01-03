@@ -38,3 +38,24 @@
     border: 1px solid var(--black);
     box-shadow: 1px 4px 10px var(--black);
 }
+
+.section__img {
+    width:200px;
+    border: 1px solid var(--little-white);
+}
+
+
+.section_journed {
+    margin-top: 70vh;
+}
+
+
+.section__list {
+    list-style-type: none;
+}
+
+.section__list-item {
+    border: 1px solid var(--little-white);
+    margin: 10px;
+    padding: 10px;
+}
