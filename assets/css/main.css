@@ -22,3 +22,19 @@
     text-align: justify;
     color: var(--little-white);
 }
+
+.section_title_dark {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: var(--black);
+    background-clip: text;
+}
+
+.section__text_dark {
+    color: var(--black);
+}
+
+.section_dark {
+    border: 1px solid var(--black);
+    box-shadow: 1px 4px 10px var(--black);
+}
