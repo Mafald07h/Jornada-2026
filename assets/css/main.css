@@ -44,6 +44,14 @@
     border: 1px solid var(--little-white);
 }
 
+.about {
+    display: flex;
+}
+
+.section__text-about {
+    margin: 10px;
+}
+
 
 .section_journed {
     margin-top: 70vh;
