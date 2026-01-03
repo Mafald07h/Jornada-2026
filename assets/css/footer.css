@@ -1,0 +1,12 @@
+.footer {
+    background-color: var(--dark-gray);
+    border-top: 1px solid var(--little-white);
+    height: 50px;
+    box-shadow: -4px 10px 10px var(--black);
+}
+
+.footer__text {
+    color: var(--little-white);
+    text-align: center;
+    margin-top: 10px;
+}
