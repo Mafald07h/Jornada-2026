@@ -7,6 +7,23 @@
     height: 100px;
 }
 
+.header__botao {
+    height: 50px;
+    margin: auto 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: var(--white);
+    border: 1px solid var(--white);
+    cursor: pointer;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.header__botao:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+
 .link__header {
     color: white;
     text-decoration: none;
@@ -63,10 +80,10 @@ label {
 .link__social_media {
     display: flex;
     padding: 5px;
+    text-decoration: none;
 }
 
 .link__social_media p {
     margin-left: 10px;
     color: white;
-    text-decoration: none;
 }

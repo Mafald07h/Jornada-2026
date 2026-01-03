@@ -5,6 +5,7 @@
     height: 50%;
     width: 90%;
     border-radius: 7px;
+    box-shadow: 1px 4px 10px white;
 }
 
 .section__title {

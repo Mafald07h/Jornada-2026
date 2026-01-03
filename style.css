@@ -21,4 +21,11 @@
 
 body {
     background-color: var(--dark-large-gray);
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.body-white {
+    background-color: var(--little-white);
+    transition: 0.2s;
 }
