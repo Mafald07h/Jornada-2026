@@ -48,6 +48,10 @@
     border: 1px solid var(--little-white);
 }
 
+.section__img-dark{
+    border: 1px solid var(--black);
+}
+
 .about {
     display: flex;
 }
