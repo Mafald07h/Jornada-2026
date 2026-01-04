@@ -6,4 +6,4 @@ um memorial, o qual poderei ver sempre que eu quiser.
 
 ## Tecnologias: HTML / CSS / Javascript
 
-Heitor 2026 | Todos os direitos reservados
+© Heitor 2026 | Todos os direitos reservados
