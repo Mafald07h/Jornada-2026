@@ -1,12 +1,30 @@
 .footer {
-    background-color: var(--dark-gray);
+    background: #262323;
+    background: linear-gradient(266deg, rgba(38, 35, 35, 1) 0%, rgba(28, 24, 31, 1) 35%, rgba(15, 13, 13, 1) 100%);
     border-top: 1px solid var(--little-white);
-    height: 50px;
+    height: auto;
     box-shadow: -4px 10px 10px var(--black);
 }
 
-.footer__text {
+.footer__title {
     color: var(--little-white);
     text-align: center;
     margin-top: 10px;
+}
+
+.footer__text {
+    text-align: center;
+    color: var(--little-white);
+    font-style: italic;
+}
+
+.formations {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.text__formation {
+    font-size: 0.7rem;
+    margin: 10px 5px;
 }
