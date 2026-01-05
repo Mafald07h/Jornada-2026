@@ -62,6 +62,8 @@
 
 .skills {
     border: 1px solid var(--little-white);
+    display: grid;
+    grid-template-columns: repeat(4,150px);
 }
 
 .skills img {
