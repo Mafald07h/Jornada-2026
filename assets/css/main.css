@@ -60,8 +60,11 @@
     margin: 10px;
 }
 
-.skills img {
+.skills {
     border: 1px solid var(--little-white);
+}
+
+.skills img {
     margin: 10px 5px;
     padding: 20px;
 }
