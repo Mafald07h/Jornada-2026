@@ -97,3 +97,27 @@ label {
     margin-left: 10px;
     color: white;
 }
+
+
+@media (max-width:430px){
+
+    
+
+    #input__menu_social_media {
+        display: none;
+    }
+
+    #input__menu_social_media:checked~.social_media {
+        display: block;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--dark-bolder-large-gray);
+        border-radius: 10px;
+        top: 70%;
+        left: 60%;
+        width: 150px;
+        padding: 10px;
+        box-shadow: 5px 4px 10px black;
+    }
+}
