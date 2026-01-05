@@ -60,6 +60,12 @@
     margin: 10px;
 }
 
+.skills img {
+    border: 1px solid var(--little-white);
+    margin: 10px 5px;
+    padding: 20px;
+}
+
 
 .section_journed {
     margin-top: 70vh;
