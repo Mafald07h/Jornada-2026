@@ -4,6 +4,7 @@ const title_section = document.querySelectorAll("[data-section-title]")
 const text_section = document.querySelectorAll("[data-section-text]")
 const section_main = document.querySelectorAll("[data-section-main]")
 const imageHeitor = document.querySelector("[data-section-image]")
+const skills = document.querySelector("[data-skills]")
 
 btn_header.addEventListener('click',()=>{
     body.classList.toggle("body-white")
@@ -21,4 +22,6 @@ btn_header.addEventListener('click',()=>{
     })
 
     imageHeitor.classList.toggle("section__img-dark")
+
+    skills.classList.toggle("skills_dark")
 })

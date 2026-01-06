@@ -68,6 +68,10 @@
     gap: 10px;
 }
 
+.skills_dark {
+    border: 1px solid var(--black);
+}
+
 .skills img {
     margin: 10px 5px;
     padding: 20px;
