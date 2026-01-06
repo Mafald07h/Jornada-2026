@@ -111,6 +111,12 @@
 }
 
 @media (max-width:440px) {
+
+    .section__title {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
     .skills {
         display: grid;
         grid-template-columns: repeat(2,100px);
