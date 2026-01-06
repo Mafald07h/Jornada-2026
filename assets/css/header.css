@@ -121,3 +121,18 @@ label {
         box-shadow: 5px 4px 10px black;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .img_menu {
+        display: none;
+    }
+    .social_media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .social_media p {
+        display: none;
+    }
+}
