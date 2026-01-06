@@ -105,3 +105,10 @@
         width: 300px;
     }
 }
+
+@media (max-width:440px) {
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2,100px);
+    }
+}
