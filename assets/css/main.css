@@ -99,9 +99,10 @@
 }
 
 .section__title-item {
-    color: var(--violet);
+    color: var(--little-white);
     text-align: justify;
-    font-size: 1.4rem;
+    font-style: italic;
+    font-size: 1.2rem;
 }
 
 .project-img {
