@@ -110,6 +110,16 @@
     margin: 10px auto;
 }
 
+.link__item {
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--little-white);
+    background: #e8e8e8;
+    background: linear-gradient(171deg, rgba(232, 232, 232, 1) 0%, rgb(179, 125, 255) 35%, rgba(212, 212, 212, 1) 100%);
+    padding: 20px 30px;
+    font-size: 1.1rem;
+    border-radius: 7px;
+}
 
 .section__list {
     list-style-type: none;
