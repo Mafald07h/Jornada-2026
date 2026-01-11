@@ -5,6 +5,7 @@ const text_section = document.querySelectorAll("[data-section-text]")
 const section_main = document.querySelectorAll("[data-section-main]")
 const imageHeitor = document.querySelector("[data-section-image]")
 const skills = document.querySelector("[data-skills]")
+const linkItem = document.getElementById("link__item")
 
 btn_header.addEventListener('click',()=>{
     body.classList.toggle("body-white")
@@ -24,4 +25,6 @@ btn_header.addEventListener('click',()=>{
     imageHeitor.classList.toggle("section__img-dark")
 
     skills.classList.toggle("skills_dark")
+
+    linkItem.classList.toggle("link__item-dark")
 })

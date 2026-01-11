@@ -121,6 +121,12 @@
     border-radius: 7px;
 }
 
+.link__item-dark {
+    -webkit-text-fill-color: transparent;
+    background: var(--black);
+    color: var(--little-white);
+}
+
 .section__list {
     list-style-type: none;
 }
