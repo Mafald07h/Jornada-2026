@@ -122,9 +122,8 @@
 }
 
 .link__item-dark {
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: var(--little-white);
     background: var(--black);
-    color: var(--little-white);
 }
 
 .section__list {
