@@ -165,3 +165,56 @@
         grid-template-columns: repeat(2,100px);
     }
 }
+
+@media (max-width:739px){
+
+    .section__projects {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section__project-itens {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .section__title {
+        text-align: center;
+    }
+
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project-img {
+        width: 150px;
+    }
+
+    .link__item {
+        padding: 10px;
+        width: 90%;
+        height: 20%;
+        font-size: 0.57rem;
+        line-height: 10%;
+    }
+}
+
+@media (max-width: 476px) {
+    .section__title-item {
+        font-size: 0.8rem;
+    }
+
+    .project-img {
+        width: 125px;
+    }
+
+}
