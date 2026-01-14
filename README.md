@@ -6,4 +6,7 @@ um memorial, o qual poderei ver sempre que eu quiser, espero conseguir.
 
 ## Tecnologias: HTML / CSS / Javascript
 
+##Sem relatos
+14/01 - Estou aqui, estou realizando commits ainda hoje
+
 © Heitor 2026 | Todos os direitos reservados
