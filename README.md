@@ -8,6 +8,7 @@ um memorial, o qual poderei ver sempre que eu quiser, espero conseguir.
 
 ##Sem relatos
 
-14/01 - Estou aqui, estou realizando commits ainda hoje
+14/01 - Estou aqui, estou realizando commits ainda hoje, espero que esses commits estejam todos sendo registrado no site :*)
+
 
 © Heitor 2026 | Todos os direitos reservados
