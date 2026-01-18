@@ -12,4 +12,6 @@ um memorial, o qual poderei ver sempre que eu quiser, espero conseguir.
 15/01 - Amanhã é ENEM cara, resultado, hoje já foi um combo de um dia ruim, amanhã será o próximo.
 16/01 - Poisé, mais um combo de dia ruim, esquece.
 17/01 - Tentando me reerguer 
+18/01 - Melhorando aos poucos, as férias estão chegando ao fim.
+
 © Heitor 2026 | Todos os direitos reservados
