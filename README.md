@@ -13,5 +13,6 @@ um memorial, o qual poderei ver sempre que eu quiser, espero conseguir.
 16/01 - Poisé, mais um combo de dia ruim, esquece.
 17/01 - Tentando me reerguer 
 18/01 - Melhorando aos poucos, as férias estão chegando ao fim, estou animado para os próximos projetos.
+19/01 - As coisas estão prestes a começar 
 
 © Heitor 2026 | Todos os direitos reservados
