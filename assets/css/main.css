@@ -17,6 +17,8 @@
     font-size: 4rem;
 }
 
+
+
 .section__text{
     text-indent: 20px;
     text-align: justify;
@@ -124,6 +126,11 @@
 .link__item-dark {
     -webkit-text-fill-color: var(--little-white);
     background: var(--black);
+}
+
+.card-january {
+    overflow: auto;
+    height: 60vh;
 }
 
 .section__list {
