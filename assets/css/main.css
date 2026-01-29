@@ -87,6 +87,7 @@
     border: 1px solid var(--little-white);
     height: 400px;
     padding: 20px;
+    display: flex;
 }
 
 .item {
