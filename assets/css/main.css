@@ -134,6 +134,11 @@
     height: 60vh;
 }
 
+.card-february {
+    margin-top: 20px;
+    overflow: auto;
+}
+
 .section__list {
     list-style-type: none;
 }
