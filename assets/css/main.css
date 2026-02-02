@@ -153,6 +153,10 @@
     border: 1px solid var(--black);
 }
 
+.formation {
+    overflow: auto;
+}
+
 @media (max-width:1080px){
     .section__title {
         font-size: 2.5rem;
@@ -183,6 +187,13 @@
     }
 }
 
+@media (max-width: 900px) {
+    .formations {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width:739px){
 
     .section__projects {
@@ -199,10 +210,15 @@
         align-items: center;
         flex-direction: column;
         margin: 40px auto;
+        height: 65vh;
     }
 
     .section__title {
         text-align: center;
+    }
+
+    .section__title-item {
+        font-size: 0.6rem;
     }
 
     .item {
@@ -210,6 +226,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        gap: 20px;
     }
 
     .project-img {
