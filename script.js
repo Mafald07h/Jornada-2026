@@ -5,7 +5,7 @@ const text_section = document.querySelectorAll("[data-section-text]")
 const section_main = document.querySelectorAll("[data-section-main]")
 const imageHeitor = document.querySelector("[data-section-image]")
 const skills = document.querySelector("[data-skills]")
-const linkItem = document.getElementById("link__item")
+const linkItem = document.querySelectorAll("[data-link__item]")
 const sectionItem = document.querySelectorAll("[data-section-list-item]")
 
 btn_header.addEventListener('click',()=>{
@@ -27,7 +27,9 @@ btn_header.addEventListener('click',()=>{
 
     skills.classList.toggle("skills_dark")
 
-    linkItem.classList.toggle("link__item-dark")
+    linkItem.forEach(link_item => {
+        link_item.classList.toggle("link__item-dark")
+    })
 
     sectionItem.forEach(item => {
         item.classList.toggle("section__list-item-dark")
