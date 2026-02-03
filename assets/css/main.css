@@ -153,10 +153,6 @@
     border: 1px solid var(--black);
 }
 
-.formation {
-    overflow: auto;
-}
-
 @media (max-width:1080px){
     .section__title {
         font-size: 2.5rem;
