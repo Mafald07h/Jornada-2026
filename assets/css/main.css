@@ -137,6 +137,7 @@
 .card-february {
     margin-top: 20px;
     overflow: auto;
+    height: 60vh;
 }
 
 .section__list {
