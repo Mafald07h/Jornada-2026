@@ -83,6 +83,10 @@
     display: none;
 }
 
+#html-about {
+    display: none;
+}
+
 #html-about:checked ~.html-section-about {
     position: absolute;
     display: block;
