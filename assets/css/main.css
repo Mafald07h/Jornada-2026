@@ -79,6 +79,23 @@
     padding: 20px;
 }
 
+.html-section-about {
+    display: none;
+}
+
+#html-about:checked ~.html-section-about {
+    position: absolute;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
 .section_journed {
     margin-top: 70vh;
 }
