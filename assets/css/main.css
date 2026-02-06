@@ -96,9 +96,10 @@
     background-color: var(--dark-gray);
     border: 1px dotted var(--little-white);
     width: 10%;
-    height: 25%;
+    height: 15%;
     padding: 20px;
     transform: translate(20px,30px);
+    font-size: 0.9rem;
 }
 
 
@@ -199,6 +200,11 @@
     .section__img {
         width: 300px;
     }
+
+    #html-about:checked ~.html-section-about {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
 }
 
 @media (max-width:673px) {
@@ -276,6 +282,14 @@
 
     .project-img {
         width: 125px;
+    }
+
+
+    #html-about:checked ~.html-section-about {
+        font-size: 0.8rem;
+        text-align: justify;
+        width: 25%;
+        transform: translate(50px,-150px);
     }
 
 }
