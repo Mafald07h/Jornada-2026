@@ -77,6 +77,8 @@
 .skills img {
     margin: 10px 5px;
     padding: 20px;
+    cursor: pointer;
+    position: relative;
 }
 
 .html-section-about {
@@ -93,6 +95,10 @@
     color: var(--little-white);
     background-color: var(--dark-gray);
     border: 1px dotted var(--little-white);
+    width: 10%;
+    height: 25%;
+    padding: 20px;
+    transform: translate(20px,30px);
 }
 
 
