@@ -63,7 +63,6 @@
 }
 
 .skills {
-    position: relative;
     border: 1px solid var(--little-white);
     display: grid;
     grid-template-columns: repeat(4,150px);
@@ -91,6 +90,9 @@
 #html-about:checked ~.html-section-about {
     position: absolute;
     display: block;
+    color: var(--little-white);
+    background-color: var(--dark-gray);
+    border: 1px dotted var(--little-white);
 }
 
 
