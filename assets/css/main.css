@@ -82,18 +82,21 @@
 }
 
 .html-section-about,
-.css-section-about {
+.css-section-about,
+.javascript-section-about {
     display: none;
 }
 
 
 #html-about,
-#css-about  {
+#css-about,
+#javascript-about  {
     display: none;
 }
 
 #html-about:checked ~.html-section-about,
-#css-about:checked ~.css-section-about  {
+#css-about:checked ~.css-section-about,
+#javascript-about:checked ~.javascript-section-about  {
     position: absolute;
     display: block;
     color: var(--little-white);
