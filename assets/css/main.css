@@ -83,20 +83,23 @@
 
 .html-section-about,
 .css-section-about,
-.javascript-section-about {
+.javascript-section-about,
+.python-section-about {
     display: none;
 }
 
 
 #html-about,
 #css-about,
-#javascript-about  {
+#javascript-about,
+#python-about  {
     display: none;
 }
 
 #html-about:checked ~.html-section-about,
 #css-about:checked ~.css-section-about,
-#javascript-about:checked ~.javascript-section-about  {
+#javascript-about:checked ~.javascript-section-about,
+#python-about:checked ~.python-section-about {
     position: absolute;
     display: block;
     color: var(--little-white);
