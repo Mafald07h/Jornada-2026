@@ -84,7 +84,8 @@
 .html-section-about,
 .css-section-about,
 .javascript-section-about,
-.python-section-about {
+.python-section-about,
+.java-section-about {
     display: none;
 }
 
@@ -92,14 +93,16 @@
 #html-about,
 #css-about,
 #javascript-about,
-#python-about  {
+#python-about,
+#java-about  {
     display: none;
 }
 
 #html-about:checked ~.html-section-about,
 #css-about:checked ~.css-section-about,
 #javascript-about:checked ~.javascript-section-about,
-#python-about:checked ~.python-section-about {
+#python-about:checked ~.python-section-about,
+#java-about:checked ~.java-section-about {
     position: absolute;
     display: block;
     color: var(--little-white);
