@@ -12,6 +12,11 @@
     margin-top: 10px;
 }
 
+.link__footer {
+    text-decoration: none;
+    color: var(--little-white);
+}
+
 .footer__text {
     text-align: center;
     color: var(--little-white);
