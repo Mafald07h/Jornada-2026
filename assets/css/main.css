@@ -167,12 +167,9 @@
     background: var(--black);
 }
 
-
-.examples{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+.example {
+    display: flex;
 }
-
 
 .card-january {
     overflow: auto;
