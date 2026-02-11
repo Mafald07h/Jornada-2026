@@ -167,6 +167,16 @@
     background: var(--black);
 }
 
+
+.section_classification {
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+}
+
+.section_classification h1 {
+    display: block;
+}
+
 .card-january {
     overflow: auto;
     height: 60vh;
