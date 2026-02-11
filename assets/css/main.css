@@ -168,14 +168,11 @@
 }
 
 
-.section_classification {
+.examples{
     display: grid;
-    grid-template-columns: repeat(2,200px);
+    grid-template-columns: 1fr 3fr;
 }
 
-.section_classification h1 {
-    display: block;
-}
 
 .card-january {
     overflow: auto;
