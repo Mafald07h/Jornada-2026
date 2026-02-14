@@ -50,6 +50,10 @@
     color: var(--little-white);
 }
 
+.link__alura:active {
+    color: var(--violet);
+}
+
 .section__img {
     width:200px;
     border: 1px solid var(--little-white);
