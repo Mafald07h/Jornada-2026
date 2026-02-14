@@ -284,6 +284,10 @@
         font-size: 0.57rem;
         line-height: 10%;
     }
+
+    .section_classification h1 {
+        font-size: 1.7rem;
+    }
 }
 
 @media (max-width: 476px) {
