@@ -45,6 +45,11 @@
     margin-top: 500px;
 }
 
+.link__alura {
+    text-decoration: none;
+    color: var(--little-white);
+}
+
 .section__img {
     width:200px;
     border: 1px solid var(--little-white);
