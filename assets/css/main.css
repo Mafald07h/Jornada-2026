@@ -45,7 +45,7 @@
     margin-top: 500px;
 }
 
-.link__alura {
+.link__alura,.__link__ {
     text-decoration: none;
     color: var(--little-white);
 }
